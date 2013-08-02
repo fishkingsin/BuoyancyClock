@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA1A4C3114B74A310090BC2B"
-               BuildableName = "DropClock.saver"
+               BuildableName = "BuoyancyClock.saver"
                BlueprintName = "BuoyancyClock"
                ReferencedContainer = "container:BuoyancyClock.xcodeproj">
             </BuildableReference>

@@ -12,7 +12,7 @@ float dvi = 1;
 //--------------------------------------------------------------
 void testApp::setup(){
     ofSetFrameRate(60);
-    ofBackground(255);
+    ofBackground(0);
     ofEnableAlphaBlending();
     buffer0 = new float [ofGetWidth()];
     buffer1 = new float [ofGetWidth()];

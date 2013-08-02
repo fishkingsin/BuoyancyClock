@@ -30,7 +30,7 @@ public:
         targetBuffer = _targetBuffer;
         
         y = 0;
-        
+        animationColor.setColor(ofColor(255));        
         ofRectangle rect = font->getStringBoundingBox(str, 0, 0);
         height = rect.height*0.5;
         width = -rect.width*0.5;
@@ -48,7 +48,7 @@ public:
         animationFloat.animateToAfterDelay( ofGetHeight()*0.5 ,1);
         sendtRipple = false;
         
-        
+        animationColor.setColor(ofColor(255));
         animationColor.animateToAlpha(0);
         animationColor.setDuration(1);
         animationColor.setCurve(LINEAR);
